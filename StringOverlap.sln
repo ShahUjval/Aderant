@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringOverlap", "StringOverlap\StringOverlap.csproj", "{9691B8B9-6471-4CD3-AED2-3FAC0BE7783F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReassembleUnitTest", "ReassembleUnitTest\ReassembleUnitTest.csproj", "{FC77117B-5F2A-4688-8AF0-4FFDD100C98D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9691B8B9-6471-4CD3-AED2-3FAC0BE7783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9691B8B9-6471-4CD3-AED2-3FAC0BE7783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9691B8B9-6471-4CD3-AED2-3FAC0BE7783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9691B8B9-6471-4CD3-AED2-3FAC0BE7783F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC77117B-5F2A-4688-8AF0-4FFDD100C98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC77117B-5F2A-4688-8AF0-4FFDD100C98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC77117B-5F2A-4688-8AF0-4FFDD100C98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC77117B-5F2A-4688-8AF0-4FFDD100C98D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70D940E2-BD58-4F5F-A0F9-07540C58AB0C}
+	EndGlobalSection
+EndGlobal
