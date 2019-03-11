@@ -65,13 +65,21 @@ namespace StringOverlap
         public void MergeTheOverLapFragments()
         {
 
+            // we couldn't find single overlap across all the string fragments
+            // Simply Concat all the string fragments and return
+            if(stringFragments.Count > 2 && longestOverlap == 0)
+            {
+                stringFragments[0] = string.Join("",stringFragments.ToArray());
+                stringFragments.RemoveRange(1, stringFragments.Count - 1);
+                return;
+            }
+
             if (stringFragments.Count <= 2 && longestOverlap == 0)
             {
                 // we got only two fragments which are not overlapping : return s1 + s2
                 stringFragments[0] = stringFragments[0] + stringFragments[1];
                 stringFragments.RemoveAt(1);
             }
-
             else
             {
                 // Get the Two Fragments
